@@ -1,5 +1,5 @@
 package com.idlefish.flutterboost.containers;
-import android.annotation.SuppressLint
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleOwner;
