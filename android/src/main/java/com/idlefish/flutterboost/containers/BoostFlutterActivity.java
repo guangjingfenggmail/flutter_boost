@@ -187,7 +187,7 @@ public class BoostFlutterActivity extends Activity
     @SuppressWarnings("deprecation")
     private Drawable getSplashScreenFromManifest() {
         try {
-            ActivityInfo activityInfo = getPackageManager().getActivityInfo(
+            @SuppressLint("WrongConstant") ActivityInfo activityInfo = getPackageManager().getActivityInfo(
                     getComponentName(),
                     PackageManager.GET_META_DATA | PackageManager.GET_ACTIVITIES
             );
